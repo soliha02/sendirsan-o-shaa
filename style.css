@@ -1,0 +1,39 @@
+.otaDiv {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.child {
+    background-color: blueviolet;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:992px) {
+    .otaDiv {
+        background-color: rgb(251, 255, 0);
+    }
+
+    .child {
+        width: 45%;
+        background-color: rgb(122, 216, 112);
+    }
+}
+
+
+@media (max-width:567px) {
+    .otaDiv {
+        background-color: black;
+    }
+
+    .child {
+        width: 100%;
+        background-color: darkturquoise;
+    }
+}
